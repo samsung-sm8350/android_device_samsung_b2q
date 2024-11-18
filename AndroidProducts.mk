@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a73xq.mk
+    $(LOCAL_DIR)/lineage_r9q.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a73xq-userdebug \
-    lineage_a73xq-user \
-    lineage_a73xq-eng
+    lineage_r9q-userdebug \
+    lineage_r9q-user \
+    lineage_r9q-eng

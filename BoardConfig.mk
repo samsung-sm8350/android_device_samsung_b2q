@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a73xq
+DEVICE_PATH := device/samsung/r9q
 
-include device/samsung/sm7325-common/BoardConfigCommon.mk
+include device/samsung/sm8350-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG        := vendor/lineage-a73xq_defconfig
+TARGET_KERNEL_CONFIG        := vendor/r9q_eur_openx_defconfig
 BOARD_NAME                  := SRPUH27A001
 
 # Kernel modules
@@ -34,13 +34,13 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_SCREEN_DENSITY := 450
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := a73xq
+TARGET_OTA_ASSERT_DEVICE := r9q
 
 # Security patch
-VENDOR_SECURITY_PATCH := 2024-05-01
+VENDOR_SECURITY_PATCH := 2024-09-01
 
 # UDFPS
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.a73xq
+TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.r9q
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL
 SOONG_CONFIG_qtidisplay_udfps := true
 
