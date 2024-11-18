@@ -1,5 +1,5 @@
 # Bluetooth
-bluetooth.device.default_name=Galaxy S21FE 5G
+bluetooth.device.default_name=Galaxy S21 FE 5G
 
 # Fingerprint
 ro.vendor.fingerprint.type=udfps_optical
