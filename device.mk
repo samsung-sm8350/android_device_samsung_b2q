@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/r9q
+DEVICE_PATH := device/samsung/b2q
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
@@ -22,11 +22,11 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 $(call inherit-product, device/samsung/sm8350-common/common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/r9q/r9q-vendor.mk)
+$(call inherit-product, vendor/samsung/b2q/b2q-vendor.mk)
 
 # Init files
 PRODUCT_PACKAGES += \
-    init.r9q.rc
+    init.b2q.rc
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -42,4 +42,4 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 PRODUCT_PACKAGES += \
-    sensors.r9q
+    sensors.b2q

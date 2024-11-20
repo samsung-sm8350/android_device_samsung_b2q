@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/r9q
+DEVICE_PATH := device/samsung/b2q
 
 include device/samsung/sm8350-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG        := vendor/r9q_eur_openx_defconfig
-BOARD_NAME                  := SRPUH27A001
+TARGET_KERNEL_CONFIG        := vendor/b2q_eur_openx_defconfig
+BOARD_NAME                  := SRPUC03A010
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
@@ -34,15 +34,15 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_SCREEN_DENSITY := 450
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := r9q
+TARGET_OTA_ASSERT_DEVICE := b2q
 
 # Security patch
 VENDOR_SECURITY_PATCH := 2024-09-01
 
 # UDFPS
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.r9q
-TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL
-SOONG_CONFIG_qtidisplay_udfps := true
+# TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.r9q
+# TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL
+# SOONG_CONFIG_qtidisplay_udfps := true
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
