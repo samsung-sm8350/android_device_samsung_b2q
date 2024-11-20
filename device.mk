@@ -28,6 +28,10 @@ $(call inherit-product, vendor/samsung/b2q/b2q-vendor.mk)
 PRODUCT_PACKAGES += \
     init.b2q.rc
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint-service.samsung
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \

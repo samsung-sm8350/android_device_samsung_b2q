@@ -149,6 +149,18 @@ vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v.mdt
 vendor/firmware/vpu20_4v_unsigned.mbn
 
+# Fingerprint
+vendor/lib/libbauthserver.so
+vendor/lib64/libbauthserver.so
+vendor/lib/libbauthtzcommon.so
+vendor/lib64/libbauthtzcommon.so
+vendor/lib/libegis_fp_normal_sensor_test.so
+vendor/lib64/libegis_fp_normal_sensor_test.so
+vendor/lib/libqfp_sensortest.so
+vendor/lib64/libqfp_sensortest.so
+vendor/lib/libgf_in_system_lib.so
+vendor/lib64/libgf_in_system_lib.so
+
 # Graphics
 vendor/etc/qdcm_calib_data_ss_dsi_panel_PBA_BOOTING_FHD_DSI1.xml
 vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E36W3_AMB190ZB01_260X488.xml
