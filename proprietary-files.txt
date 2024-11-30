@@ -160,6 +160,8 @@ vendor/lib/libqfp_sensortest.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib/libgf_in_system_lib.so
 vendor/lib64/libgf_in_system_lib.so
+vendor/lib/libsynaFpSensorTestNwd.so
+vendor/lib64/libsynaFpSensorTestNwd.so
 
 # Graphics
 vendor/etc/qdcm_calib_data_ss_dsi_panel_PBA_BOOTING_FHD_DSI1.xml
@@ -176,3 +178,21 @@ vendor/etc/libnfc-nxp.conf
 vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 vendor/lib64/nfc_nci_nxpsn.so
 vendor/firmware/nfc/libsn100u_fw.so
+
+# Wi-Fi
+vendor/bin/cnss-daemon
+vendor/bin/hw/macloader
+vendor/lib/libqsap_sdk.so
+vendor/lib64/libqsap_sdk.so
+vendor/firmware/Data.msc
+vendor/firmware/qca6390/bdwlan.elf1
+vendor/firmware/qca6390/amss20.bin
+vendor/firmware/qca6390/bdwlan.elf2.nxp
+vendor/firmware/qca6390/bdwlan.elf10.nxp
+vendor/firmware/qca6390/bdwlan.elf10
+vendor/firmware/qca6390/bdwlan.elf1.nxp
+vendor/firmware/qca6390/regdb.bin
+vendor/firmware/qca6390/bdwlan.elf
+vendor/firmware/qca6390/m3.bin
+vendor/firmware/qca6390/bdwlan.elf2
+vendor/firmware/qca6390/bdwlan.elf.nxp

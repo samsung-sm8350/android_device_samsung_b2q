@@ -19,13 +19,14 @@ DEVICE_PATH := device/samsung/b2q
 include device/samsung/sm8350-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG        := vendor/b2q_eur_openx_defconfig
+TARGET_KERNEL_CONFIG        := b2q_defconfig
 BOARD_NAME                  := SRPUC03A010
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
 BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
 RECOVERY_KERNEL_MODULES := $(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD)
+TARGET_MODULE_ALIASES += wlan.ko:qca_cld3_wlan.ko
 
 # Recovery
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
