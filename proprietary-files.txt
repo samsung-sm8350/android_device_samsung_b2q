@@ -34,6 +34,9 @@ vendor/firmware/ipa_fws.mdt
 vendor/firmware/fts2ca78y_b2.bin
 vendor/firmware/fts9cu80f_b2.bin
 
+# Rear touchscreen firmware
+vendor/firmware/ztw522_b2.bin
+
 # Bluetooth firmware
 vendor/firmware/htbtfw20.tlv
 vendor/firmware/hpbtfw20.tlv
