@@ -30,7 +30,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_HEIGHT := 2640
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
@@ -44,5 +44,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Vendor fingerprint
-BUILD_FINGERPRINT := "samsung/b2qxxx/b2q:11/RP1A.200720.012/F711BXXS8HXE1:user/release-keys"
-PRIVATE_BUILD_DESC := "b2qxxx-user 14 UP1A.231005.007 F711BXXS8HXE1 release-keys"
+BUILD_FINGERPRINT := "samsung/b2qxxx/b2q:11/RP1A.200720.012/F711BXXSAIXJ1:user/release-keys"
+PRIVATE_BUILD_DESC := "b2qxxx-user 14 UP1A.231005.007 F711BXXSAIXJ1 release-keys"
