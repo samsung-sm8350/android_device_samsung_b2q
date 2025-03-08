@@ -40,4 +40,7 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -14 V 35 H 14 V 0 H 0 Z @dp</string>
+
+    <!-- Whether device has fingerprint on power button -->
+    <bool name="config_powerButtonFingerprint">true</bool>
 </resources>
