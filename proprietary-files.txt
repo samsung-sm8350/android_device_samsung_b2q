@@ -30,6 +30,9 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
+# Display
+vendor/etc/input-port-associations.xml
+
 # Camera
 system/lib64/vendor.samsung.hardware.camera.provider-V1-ndk.so
 vendor/etc/permissions/vendor.android.hardware.camera.preview-dis.back.xml
