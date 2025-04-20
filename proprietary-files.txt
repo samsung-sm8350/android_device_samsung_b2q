@@ -32,6 +32,10 @@ vendor/firmware/ipa_fws.mdt
 
 # Display
 vendor/etc/input-port-associations.xml
+vendor/etc/displayconfig/sec/display_layout_configuration.xml
+vendor/etc/displayconfig/display_layout_configuration.xml
+vendor/etc/devicestate/sec/device_state_configuration.xml
+vendor/etc/devicestate/device_state_configuration.xml
 
 # Camera
 system/lib/libsecaudiotestutils.so
