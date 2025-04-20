@@ -15,6 +15,9 @@ function blob_fixup() {
             xxd -r -p "${2}".hex > "${2}"
             rm "${2}".hex
             ;;
+        vendor/lib64/unihal_android.so)
+            grep -q libui_shim.so "$2" || "$PATCHELF" --add-needed libui_shim.so "$2"
+            ;;
     esac
 }
 
