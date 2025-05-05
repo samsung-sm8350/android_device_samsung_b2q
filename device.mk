@@ -41,9 +41,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2.vendor
 
-# Sensors
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
+# Flipper
 PRODUCT_PACKAGES += \
-    sensors.b2q
+    Flipper
