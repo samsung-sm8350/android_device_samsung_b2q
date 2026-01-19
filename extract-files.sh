@@ -19,6 +19,12 @@ function blob_fixup() {
             #xxd -p -c0 "${2}" | sed "s/42b03091c00080520900001480008052/42b03091c000805209000014a0008052/g" | xxd -r -p > "${2}".patched
             #mv "${2}".patched "${2}"
             ;;
+        vendor/lib64/unihal_android.so)
+            "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
+            ;;
+        vendor/lib64/camera.device@**-impl.so|vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so|vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v30.so" "${2}"
+            ;;
     esac
 }
 
