@@ -52,7 +52,6 @@ sec_secure_touch.ko
 qm1d1c0042.ko
 sec_abc_detect_conn.ko
 radio-i2c-rtc6226-qca.ko
-tcp_htcp.ko
 sec_tsp_log.ko
 apr_dlkm.ko
 qm1d1b0004.ko
@@ -61,7 +60,6 @@ bolero_cdc_dlkm.ko
 fc0013.ko
 max2165.ko
 hdmi_dlkm.ko
-tcp_westwood.ko
 blk-sec-stats.ko
 sec_common_fn.ko
 mt2063.ko
@@ -87,3 +85,4 @@ fingerprint.ko
 tea5761.ko
 snd-soc-wm-adsp.ko
 llcc_perfmon.ko
+rmnet_core.ko

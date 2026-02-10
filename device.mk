@@ -42,5 +42,5 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2.vendor
 
 # Flipper
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     Flipper
